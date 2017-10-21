@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/14-1.css">
+</head>
+<body>
+<!--头部内容-->
+<header>
+    <img src="img/logo.png"/>
+    <span>装修方案</span>
+    <div class="rig">
+        <div>
+            <span class="iconfont icon-user"></span><br/>我的
+        </div>
+        <div>
+            <span class="iconfont icon-nav"></span><br/>导航
+        </div>
+    </div>
+</header>
+<section class="sec">
+    <div class="img14">
+        <img src="img/1首页_spec_62.png" alt="">
+        <div class="r_text">
+            <div>699全包精装套餐</div>
+            <div>
+                <span class="gray">价格：</span>
+                <span class="red1">￥699元/m <sup>2</sup></span>
+            </div>
+            <div>
+                <span class="gray">
+                    以预约：
+                </span>
+                <span>221套</span>
+            </div>
+            <div>
+                <span class="gray">
+                    正式发售：
+                </span>
+                <span class="red2">
+                    全包套餐火爆预约中
+                </span>
+            </div>
+        </div>
+    </div>
+    <p>
+        精装全包套餐，包设计/包主材/包施工/包监控。采用知名辅材、一线主材，工厂直供F2C模式
+    </p>
+</section>
+<section>
+    <ul class="ul_tao">
+        <li class="active">套餐详情</li>
+        <li>配置清单</li>
+        <li>施工工艺</li>
+        <li>物流服务</li>
+    </ul>
+</section>
+<img src="img/14方案详情_spec_02.png" class="gong_img">
+
+<section class="text_home">
+    <div>
+        房先生互联网家装有别于传统装修公司与其他装修中阶平台，以自营模式整合设计师与项目经理，杜绝项目转包外包，利用互联网将工地进行在线全景直播，通过去中的环节，提供装修套餐+个性化定制服务
+    </div>
+</section>
+<div class="fix">
+    <div class="red">
+        <span class="iconfont icon-design"></span>
+        <span class="yu">预约免费设计</span>
+    </div>
+    <img src="img/6图片详情页_spec_10.png" alt="">
+</div>
+<footer>
+    <!--服务热线-->
+    <div class="tel">
+        <span class="iconfont icon-hot-line"></span>
+        <span class="fu">
+            服务热线：400-9977-658
+        </span>
+    </div>
+    <ul class="chu">
+        <li>
+            <a href="" class="a1">触屏版</a>
+        </li>
+        <li>
+            <a href="">电脑版</a>
+        </li>
+        <li>
+            <a href="">关于我们</a>
+        </li>
+        <li>
+            <a href="">联系我们</a>
+        </li>
+    </ul>
+</footer>
+<div class="iconfont icon-backtop"></div>
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script>
+    window.onload = function () {
+        document.documentElement.style.fontSize = innerWidth / 7.5 + "px";
+        console.log("1rem=" + innerWidth / 7.5);
+    }
+    $(".ul_tao li").mousedown(function(){
+        $(this).addClass("active").siblings().removeClass("active")
+    })
+</script>
+</html>

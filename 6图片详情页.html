@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+</head>
+<link rel="stylesheet" href="css/five.css">
+<link rel="stylesheet" href="iconfont/iconfont.css">
+<script src="js/iscroll-probe.js"></script>
+<body>
+<!--头部-->
+<header>
+    <span class="iconfont icon-back"></span>
+    <span>欧美文化的抽此美感</span>
+    <div>
+        <span class="iconfont icon-nav"></span>
+        <p>导航</p>
+    </div>
+</header>
+<section class="black">
+
+</section>
+<img src="img/6图片详情页_spec_06.png" class="con_img">
+<section class="liucheng">
+    <img src="img/6图片详情页_spec_08.png" class="con_img">
+    <div class="ul_text">(1) 卧室(1) 书房(2) 厨房(1) 卫生间(1)餐厅</div>
+    <!--上下滚动部分-->
+    <div id="wrapper">
+        <div>
+            <p>
+                设计诠释：less is more 不需要过多的装饰，简单的墙面背景与简洁的家居即可组成一个温暖的家
+            </p>
+        </div>
+    </div>
+
+</section>
+<section class="text_home">
+        房先生互联网家装有别于传统装修公司与其他装修中阶平台，以自营模式整合设计师与项目经理，杜绝项目转包外包，利用互联网将工地进行在线全景直播，通过去中的环节，提供装修套餐+个性化定制服务
+</section>
+<section class="fix">
+    <div class="red">
+        <span class="iconfont icon-design"></span>
+        <span class="yu">预约免费设计</span>
+    </div>
+    <img src="img/6图片详情页_spec_10.png" alt="">
+</section>
+<div class="iconfont icon-backtop"></div>
+<footer>
+    <!--服务热线-->
+    <div class="tel">
+        <span class="iconfont icon-hot-line"></span>
+        <span class="fu">
+            服务热线：400-9977-658
+        </span>
+    </div>
+    <ul class="chu">
+        <li>
+            <a href="">触屏版</a>
+        </li>
+        <li>
+            <a href="">电脑版</a>
+        </li>
+        <li>
+            <a href="">关于我们</a>
+        </li>
+        <li>
+            <a href="">联系我们</a>
+        </li>
+    </ul>
+</footer>
+
+</body>
+<script>
+    window.onload = function () {
+        document.documentElement.style.fontSize = innerWidth / 7.5 + "px";
+        console.log("1rem=" + innerWidth / 7.5);
+//阻止默认事件
+        document.addEventListener("touchmove", function (ev) {
+            ev.preventDefault();
+        }, {
+            passive: false
+        })
+
+        var myscroll = new IScroll("#wrapper", {
+            scrollbars: true,
+            probeType: 3,
+            mouseWheel: true,
+        })
+    }
+
+
+</script>
+</html>

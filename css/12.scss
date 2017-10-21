@@ -1,0 +1,254 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  img{
+    width:2.15rem;
+    margin: 0.16rem 0 0.16rem 0.18rem;
+  }
+  span{
+    font-size: 0.36rem;
+  }
+  .rig{
+    display: flex;
+    align-items: center;
+    margin-right: 0.18rem;
+    div{
+      text-align: center;
+      margin-left: 0.2rem;
+      font-size: 0.22rem;
+      color: #999999;
+      span{
+        font-size: 0.45rem;
+      }
+    }
+  }
+}
+
+.text_home{
+  border-bottom: 0.2rem solid #F4F4F4;
+  padding: 0rem 0.16rem;
+  border-top: 0.2rem solid #F4F4F4;
+
+
+  div{
+    text-indent:0.32rem;
+    font-size:0.28rem;
+    color: gray;
+    margin: 0.36rem 0;
+
+  }
+}
+footer{
+  width:100%;
+  position:relative;
+  font-size:0.28rem;
+  .iconfont{
+    color: #38C993;
+    font-size:0.28rem;
+  }
+  .ban{
+    color:gray;
+    text-align: center;
+    width: 100%;
+    padding: 0.36rem 0;
+  }
+  img{
+    width:100%;
+  }
+}
+.chu{
+  display: flex;
+  height:0.64rem;
+  border-bottom: 1px solid #eeeeee;
+  li{
+    width:25%;
+    text-align: center;
+    border-right:1px solid #eeeeee;
+  }
+  a{
+    color: #000;
+  }
+  .a1{
+    color:#38c894;
+  }
+}
+
+
+.icon-backtop{
+  width:0.94rem;
+  height: 0.94rem;
+  border:1px solid #dedede;
+  font-size:40px;
+  text-align: center;
+  line-height:0.94rem;
+  border-radius:50%;
+  position: fixed;
+  bottom:270px;
+  right:20px;
+  background: white;
+}
+body{
+  padding-bottom: 1.44rem;
+}
+
+.tel{
+  text-align: center;
+  margin: 0.38rem 0;
+}
+.chen{
+  box-sizing: border-box;
+  display: flex;
+  width:100%;
+  background: white;
+  img{
+    width:1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+  }
+  .right{
+    margin-left: 0.22rem;
+    font-size:0.28rem;
+    .gray{
+      font-size:0.28rem;
+      color: #999;
+    }
+    .top{
+      .name{
+        font-size:0.36rem;
+      }
+      .good{
+        background: #38C993;
+        color: white;
+        font-size:0.24rem;
+        border-radius: 5px;
+        padding: 0.03rem;
+      }
+    }
+    .midd{
+      word-spacing: 0.5rem;
+      margin-top: 0.28rem;
+      margin-bottom: 0.2rem;
+    }
+  }
+}
+.imgs{
+  width:100%;
+  padding: 0.6rem 0;
+  ul{
+    display: flex;
+    justify-content: center;
+    li{
+      div{
+        width:1.04rem;
+        height: 1.02rem;
+        font-size:0.62rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      p{
+        font-size:0.28rem;
+      }
+    }
+    li:nth-of-type(1){
+      div{
+        border:1px solid #FD8D67;
+        color: #FD8D67 ;
+        margin-bottom: 0.25rem;
+      }
+      p{
+        color: #FD8D67;
+      }
+    }
+    li:nth-of-type(2){
+      margin: 0 0.8rem;
+      div{
+        border:1px solid #2EA3F7;
+        color: #2EA3F7 ;
+        margin-bottom: 0.25rem;
+      }
+      p{
+        color: #2EA3F7;;
+      }
+    }
+    li:nth-of-type(3){
+      div{
+        border:1px solid red;
+        color: red ;
+        margin-bottom: 0.25rem;
+      }
+      p{
+        color: red;
+      }
+    }
+  }
+}
+.green{
+  font-size:0.28rem;
+  span:nth-of-type(2){
+    color: gray;
+  }
+}
+section{
+  padding: 0.28rem 0.16rem;
+  box-sizing: border-box;
+}
+.sheji{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  border-left: 2px solid #38c894;
+  padding-left: 0.1rem;
+  box-sizing: border-box;
+  span:nth-of-type(1){
+    font-size:0.36rem;
+  }
+  span:nth-of-type(2){
+    font-size:0.24rem;
+    color: #999;
+  }
+}
+.bot{
+  border-bottom: 0.2rem solid #eeeeee;
+}
+.bg {
+  padding: 0.22rem 0.17rem;
+  ul {
+    width: 7.15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      width: 3.53rem;
+      border: 0.01rem solid #eaeaea;
+      box-sizing: border-box;
+      background: white;
+      text-align: center;
+      img {
+        width: 100%;
+      }
+
+      p {
+        font-size: 0.36rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0.2rem;
+      }
+      div {
+        color: #999;
+        font-size: 0.2rem;
+        margin-bottom: 0.25rem;
+        word-spacing: 0.25rem;
+      }
+    }
+  }
+}

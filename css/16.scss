@@ -1,0 +1,249 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  img{
+    width:2.15rem;
+    margin: 0.16rem 0 0.16rem 0.18rem;
+  }
+  span{
+    font-size: 0.36rem;
+  }
+  .rig{
+    display: flex;
+    align-items: center;
+    margin-right: 0.18rem;
+    div{
+      text-align: center;
+      margin-left: 0.2rem;
+      font-size: 0.22rem;
+      color: #999999;
+      span{
+        font-size: 0.45rem;
+      }
+    }
+  }
+}
+.text_home{
+  border-bottom: 0.2rem solid #F4F4F4;
+  padding: 0rem 0.16rem;
+  border-top: 0.2rem solid #F4F4F4;
+
+
+  div{
+    text-indent:0.32rem;
+    font-size:0.28rem;
+    color: gray;
+    margin: 0.36rem 0;
+
+  }
+}
+footer{
+  width:100%;
+  position:relative;
+  font-size:0.28rem;
+  .iconfont{
+    color: #38C993;
+    font-size:0.28rem;
+  }
+  .ban{
+    color:gray;
+    text-align: center;
+    width: 100%;
+    padding: 0.36rem 0;
+  }
+  img{
+    width:100%;
+  }
+}
+.chu{
+  display: flex;
+  height:0.64rem;
+  border-bottom: 1px solid #eeeeee;
+  li{
+    width:25%;
+    text-align: center;
+    border-right:1px solid #eeeeee;
+  }
+  a{
+    color: #000;
+  }
+  .a1{
+    color:#38c894;
+  }
+}
+
+
+.icon-backtop{
+  width:0.94rem;
+  height: 0.94rem;
+  border:1px solid #dedede;
+  font-size:40px;
+  text-align: center;
+  line-height:0.94rem;
+  border-radius:50%;
+  position: fixed;
+  bottom:270px;
+  right:20px;
+  background: white;
+}
+.tel{
+  text-align: center;
+  margin: 0.38rem 0;
+}
+body{
+  padding-bottom: 1.44rem;
+  display: flex;
+  flex-direction: column;
+}
+.news{
+  text-align: center;
+  div{
+    width:5.58rem;
+    height:0.68rem;
+    border:1px solid #eeeeee;
+    border-radius:5px;
+    margin: 0.25rem auto;
+    line-height: 0.68rem;
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    input{
+      border:none;
+      outline:none;
+      font-size:0.28rem;
+      color: #cacaca;
+    }
+    span{
+      font-size:0.28rem;
+    }
+  }
+  .btn{
+    width:5.58rem;
+    height:0.68rem;
+    line-height: 0.68rem;
+    background: #FEB605;
+    color: white;
+    font-size:0.36rem;
+    text-align: center;
+    border:none;
+    outline: none;
+    border:1px solid #eeeeee;
+    border-radius:5px;
+    margin-bottom: 0.36rem;
+  }
+}
+.pp{
+  font-size:0.36rem;
+  text-align: center;
+  margin: 0.36rem 0;
+}
+.mian{
+  width: 100%;
+}
+
+.xu{
+  border: 1px #38c894 dotted;
+  font-size:0.28rem;
+  padding-bottom: 0.36rem;
+  .other{
+    color:#38c894;
+  }
+  p:nth-of-type(1){
+    font-size:0.36rem;
+    position: relative;
+    top:-0.2rem;
+    background: white;
+    width:3.2rem;
+    left:1.97rem;
+    text-align: center;
+  }
+  p:nth-of-type(2){
+    font-size:0.24rem;
+    text-indent: 0.48rem;
+    padding: 0 0.16rem;
+    box-sizing: border-box;
+  }
+}
+.er{
+  margin: 0.36rem auto;
+  font-size:0.36rem;
+}
+.heng{
+  width:100%;
+}
+.uls{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0.36rem 0.16rem 0 0.16rem;
+  li{
+    width:2.12rem;
+    height:2.69rem;
+    border: 1px solid #38c894;
+    text-align: center;
+    .hezi{
+      width: 1rem;
+      height: 1rem;
+      border:1px solid #38c894;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0.33rem auto;
+      .iconfont{
+        color: #38c894;
+      }
+    }
+    .ling{
+      font-size:0.28rem;
+    }
+    .zai{
+      color: gray;
+      font-size:0.28rem;
+    }
+
+  }
+}
+.she{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  li{
+    width:50%;
+    height:2.27rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .biao{
+      background: #38c894;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      margin-bottom: 0.24rem;
+    }
+    font-size:0.24rem;
+  }
+  li:nth-of-type(1),li:nth-of-type(2){
+    border-bottom: 1px solid #eeeeee;
+  }
+  li:nth-of-type(2),li:nth-of-type(4){
+    border-left: 1px solid #eeeeee;
+  }
+}
